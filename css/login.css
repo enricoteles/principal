@@ -1,0 +1,74 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #df3333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#content {
+    max-width: 600px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para o formulário de login */
+#login-form {
+    text-align: center;
+}
+
+#login-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button.btn-login {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilos para mensagens especiais */
+#message h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+#message p {
+    color: #777;
+}
+
+#profile-picture {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    border-radius: 50%; /* Cria uma borda circular para a imagem */
+}
